@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="de43e8c1-20ff-4c46-ae21-e7ccaeec428d" name="Default Changelist" comment="" />
+    <list default="true" id="de43e8c1-20ff-4c46-ae21-e7ccaeec428d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/AD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ADHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charactor/ADHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charactor/ADHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/charactor/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/charactor/Hero.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +39,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1daIgRia79El2j7hk8sOBrGEajE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/property" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -36,7 +63,7 @@
       <recent name="D:\学习资料\learn_java\src\property" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ADHero">
+  <component name="RunManager" selected="Application.Hero">
     <configuration name="ADHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="charactor.ADHero" />
       <module name="learn_java" />
@@ -80,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ADHero" />
         <item itemvalue="Application.Hero" />
+        <item itemvalue="Application.ADHero" />
         <item itemvalue="Application.LeagueSwitch" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.TestGiantDragon" />
@@ -101,11 +128,23 @@
       <workItem from="1592656888555" duration="15261000" />
       <workItem from="1592999019297" duration="1223000" />
       <workItem from="1593508120259" duration="4261000" />
+      <workItem from="1593515827634" duration="4817000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="415" y="165" key="#Project_Structure" timestamp="1592657009259">
@@ -116,22 +155,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="445" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592657439223" />
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom" timestamp="1593515546815">
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom" timestamp="1593519300101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593515546815" />
-    <state width="1877" height="177" key="GridCell.Tab.0.center" timestamp="1593515546815">
+    <state width="1877" height="272" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593519300101" />
+    <state width="1877" height="272" key="GridCell.Tab.0.center" timestamp="1593519300101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593515546815" />
-    <state width="1877" height="177" key="GridCell.Tab.0.left" timestamp="1593515546815">
+    <state width="1877" height="272" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593519300101" />
+    <state width="1877" height="272" key="GridCell.Tab.0.left" timestamp="1593519300100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593515546815" />
-    <state width="1877" height="177" key="GridCell.Tab.0.right" timestamp="1593515546815">
+    <state width="1877" height="272" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593519300100" />
+    <state width="1877" height="272" key="GridCell.Tab.0.right" timestamp="1593519300101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593515546815" />
+    <state width="1877" height="272" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593519300101" />
     <state x="813" y="73" width="998" height="708" key="SettingsEditor" timestamp="1592658088940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

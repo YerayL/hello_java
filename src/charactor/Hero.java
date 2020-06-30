@@ -1,33 +1,35 @@
 package charactor;
 
-import property.Item;
-
 public class Hero {
-
-    String name; //姓名
-
-    float hp; //血量
-
-    float armor; //护甲
-
-    int moveSpeed; //移动速度
-
-    public void useItem(Item i){
-        System.out.println("hero use item");
-        i.effect();
-    }
-
-    public Hero(){
-        System.out.println("Hero的无参的构造方法 ");
-    }
-
-    public Hero(String name){
-        System.out.println(name+"Hero的有一个参数的构造方法 ");
-        this.name = name;
+    public static final int itemTotalNumber = 6;
+    public String name;
+    protected float hp;
+    int moveSpeed;
+    public boolean equals(Object o){
+        if(o instanceof Hero){
+            Hero h = (Hero) o;
+            return this.hp == h.hp;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
-        new Hero();
-    }
+        final Hero h1= new Hero();
+        h1.hp = 300;
+        Hero h2= new Hero();
+        h2.hp = 400;
+        Hero h3= new Hero();
+        h3.hp = 300;
+        Hero h4 = h3;
 
+
+        System.out.println(Hero.itemTotalNumber);
+        System.out.println(h1==h3);
+        System.out.println(h4==h3);
+        System.out.println(h4.equals(h3));
+        System.out.println(h4.getClass());
+        System.out.println(h3.getClass());
+        System.out.println(h2.getClass());
+
+    }
 }

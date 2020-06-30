@@ -1,27 +1,42 @@
 package charactor;
 
-public class ADHero extends Hero implements AD{
+import property.Item;
+import property.LifePotion;
 
-    int moveSpeed=400; //移动速度
+public class ADHero extends Hero implements AD {
+
+    int moveSpeed = 400; // 移动速度
 
     @Override
     public void physicAttack() {
         System.out.println("进行物理攻击");
     }
 
-    public int getMoveSpeed(){
+    public int getMoveSpeed() {
         return this.moveSpeed;
     }
 
-    public int getMoveSpeed2(){
+    public int getMoveSpeed2() {
         return super.moveSpeed;
     }
 
-    public static void main(String[] args) {
-        ADHero h= new ADHero();
+//    public ADHero(String name){
+//        super(name);
+//        System.out.println("AD Hero的构造方法");
+//    }
 
-        System.out.println(h.getMoveSpeed());
-        System.out.println(h.getMoveSpeed2());
+//    // 重写useItem，并在其中调用父类的userItem方法
+//    public void useItem(Item i) {
+//        System.out.println("adhero use item");
+//        super.useItem(i);
+//    }
+
+    public static void main(String[] args) {
+//        ADHero h = new ADHero("gailun");
+
+        LifePotion lp = new LifePotion();
+
+//        h.useItem(lp);
 
     }
 
