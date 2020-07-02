@@ -1,35 +1,34 @@
 package charactor;
 
-public class Hero {
-    public static final int itemTotalNumber = 6;
-    public String name;
-    protected float hp;
-    int moveSpeed;
-    public boolean equals(Object o){
-        if(o instanceof Hero){
-            Hero h = (Hero) o;
-            return this.hp == h.hp;
-        }
-        return false;
-    }
+public abstract class Hero {
+    String name; //姓名
+
+    float hp; //血量
+
+    float armor; //护甲
+
+    int moveSpeed; //移动速度
+
+    public abstract void attack();
 
     public static void main(String[] args) {
-        final Hero h1= new Hero();
-        h1.hp = 300;
-        Hero h2= new Hero();
-        h2.hp = 400;
-        Hero h3= new Hero();
-        h3.hp = 300;
-        Hero h4 = h3;
 
+        ADHero adh=new ADHero();
+        //通过打印adh，可以看到adh这个对象属于ADHero类
+        adh.attack();
+        System.out.println(adh);
 
-        System.out.println(Hero.itemTotalNumber);
-        System.out.println(h1==h3);
-        System.out.println(h4==h3);
-        System.out.println(h4.equals(h3));
-        System.out.println(h4.getClass());
-        System.out.println(h3.getClass());
-        System.out.println(h2.getClass());
+        Hero h = new Hero(){
+            //当场实现attack方法
+            public void attack() {
+                System.out.println("新的进攻手段");
+            }
+        };
+        h.attack();
+        //通过打印h，可以看到h这个对象属于Hero$1这么一个系统自动分配的类名
+        System.out.println(h);
+
 
     }
+
 }

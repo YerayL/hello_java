@@ -9,6 +9,13 @@ public class ADHero extends Hero implements AD {
 
     @Override
     public void physicAttack() {
+        AD.super.attack();
+        System.out.println("进行物理攻击");
+    }
+
+    @Override
+    public void attack() {
+        AD.super.attack();
         System.out.println("进行物理攻击");
     }
 
@@ -16,9 +23,9 @@ public class ADHero extends Hero implements AD {
         return this.moveSpeed;
     }
 
-    public int getMoveSpeed2() {
-        return super.moveSpeed;
-    }
+//    public int getMoveSpeed2() {
+//        return super.moveSpeed;
+//    }
 
 //    public ADHero(String name){
 //        super(name);
@@ -32,9 +39,11 @@ public class ADHero extends Hero implements AD {
 //    }
 
     public static void main(String[] args) {
-//        ADHero h = new ADHero("gailun");
+        ADHero h = new ADHero();
+        h.attack();
+        h.physicAttack();
 
-        LifePotion lp = new LifePotion();
+//          LifePotion lp = new LifePotion();
 
 //        h.useItem(lp);
 
